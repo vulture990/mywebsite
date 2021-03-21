@@ -1,0 +1,53 @@
+:root{
+	--mainColor:#eddcdc;
+	--secondaryColor:#fff;
+
+	--borderColor:#a99d9d;
+
+	--mainText:black;
+	--secondaryText:#2a4255;
+
+	--themeDotBorder:#24292e;
+
+	--previewBg:rgba(162, 131, 39, 0.8);
+	--previewShadow:#ebdcab;
+
+
+	--buttonColor:black;
+}
+
+
+html, body{
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, strong{
+	color: var(--mainText);
+	font-family: 'Russo One', sans-serif;
+	font-weight: 500;
+}
+
+p, li, span, label, input, textarea{
+	color: var(--secondaryText);
+	font-family: 'Roboto Mono', monospace;
+}
+
+a{
+	text-decoration: none;
+	color:#17a2b8;
+}
+
+ul{
+	list-style: none;
+}
+
+h1 { font-size: 56px;}
+h2 { font-size: 36px;}
+h3 { font-size: 28px;}
+h4 { font-size: 24px;}
+h5 { font-size: 20px;}
+h6 { font-size: 16px;}
